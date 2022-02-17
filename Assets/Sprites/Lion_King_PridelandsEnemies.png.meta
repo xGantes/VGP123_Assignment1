@@ -1,0 +1,1104 @@
+fileFormatVersion: 2
+guid: 38d69eface6ccf141a45d0fd936fd248
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6516244871361615230
+    second: greenrun0
+  - first:
+      213: 6493671765166131520
+    second: greenrun1
+  - first:
+      213: 3242588615292556229
+    second: greenrun2
+  - first:
+      213: -520116196819909151
+    second: greenrun3
+  - first:
+      213: 6516746376507263031
+    second: greenrun4
+  - first:
+      213: -1929875132596318546
+    second: greenrun5
+  - first:
+      213: 1093693138992255967
+    second: greenrun6
+  - first:
+      213: -3897860010784846860
+    second: greenrun7
+  - first:
+      213: 2295544970921507834
+    second: Lion_King_PridelandsEnemies_8
+  - first:
+      213: 2983695096309053240
+    second: Lion_King_PridelandsEnemies_9
+  - first:
+      213: 5010108437049284594
+    second: Lion_King_PridelandsEnemies_10
+  - first:
+      213: 7451717495666325854
+    second: Lion_King_PridelandsEnemies_11
+  - first:
+      213: -6052684379244635
+    second: greenAtk0
+  - first:
+      213: -8652718924736419385
+    second: greenAtk1
+  - first:
+      213: 5180785202866520826
+    second: greenAtk2
+  - first:
+      213: 5973656435279613249
+    second: greenAtk3
+  - first:
+      213: 1139878688325446950
+    second: greenAtk4
+  - first:
+      213: -2661886834667550587
+    second: greenAtk5
+  - first:
+      213: 6068440526440398735
+    second: greenAtk6
+  - first:
+      213: -174488094869873872
+    second: greenAtk7
+  - first:
+      213: 5707423688054222415
+    second: brownwalk0
+  - first:
+      213: 3276071441229322067
+    second: brownwalk1
+  - first:
+      213: 6416510068150908274
+    second: brownwalk2
+  - first:
+      213: 9213615564074937355
+    second: brownwalk3
+  - first:
+      213: 8155926004238559004
+    second: brownwalk4
+  - first:
+      213: 5632865939959086518
+    second: brownwalk5
+  - first:
+      213: -3292583331803260040
+    second: Lion_King_PridelandsEnemies_26
+  - first:
+      213: -7141632659213637882
+    second: Lion_King_PridelandsEnemies_27
+  - first:
+      213: 7128203958809219793
+    second: Lion_King_PridelandsEnemies_28
+  - first:
+      213: 7774283309899348551
+    second: Lion_King_PridelandsEnemies_29
+  - first:
+      213: -3595956913885730807
+    second: Lion_King_PridelandsEnemies_30
+  - first:
+      213: 8977142605091471607
+    second: Lion_King_PridelandsEnemies_31
+  - first:
+      213: -4875772340563509215
+    second: Lion_King_PridelandsEnemies_32
+  - first:
+      213: 2392119845612649567
+    second: Lion_King_PridelandsEnemies_33
+  - first:
+      213: 3521921959228087469
+    second: Lion_King_PridelandsEnemies_34
+  - first:
+      213: 8686105501156408009
+    second: Lion_King_PridelandsEnemies_35
+  - first:
+      213: -6307478981335107552
+    second: Lion_King_PridelandsEnemies_36
+  - first:
+      213: 7249812162721445203
+    second: Lion_King_PridelandsEnemies_37
+  - first:
+      213: 4702803596258286727
+    second: Lion_King_PridelandsEnemies_38
+  - first:
+      213: 6983069295721880701
+    second: Lion_King_PridelandsEnemies_39
+  - first:
+      213: 2087630993260973384
+    second: Lion_King_PridelandsEnemies_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: greenrun0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 219
+        width: 35
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28aa70560d5a195a0800000000000000
+      internalID: -6516244871361615230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenrun1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 219
+        width: 32
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04906b2c0182e1a50800000000000000
+      internalID: 6493671765166131520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenrun2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 219
+        width: 30
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c31d376a2dfffc20800000000000000
+      internalID: 3242588615292556229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenrun3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 219
+        width: 32
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e54f9e131d28c8f0800000000000000
+      internalID: -520116196819909151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenrun4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 219
+        width: 34
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738870f5d42207a50800000000000000
+      internalID: 6516746376507263031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenrun5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 219
+        width: 32
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae8cb4bac4b735e0800000000000000
+      internalID: -1929875132596318546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenrun6
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 219
+        width: 30
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd35ae28d149d2f00800000000000000
+      internalID: 1093693138992255967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenrun7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 220
+        width: 33
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb08f0d8f408e9c0800000000000000
+      internalID: -3897860010784846860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_8
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 219
+        width: 26
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbf5bd1df96bdf10800000000000000
+      internalID: 2295544970921507834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_9
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 219
+        width: 20
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837739db1e6386920800000000000000
+      internalID: 2983695096309053240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_10
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 219
+        width: 19
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7928c241b778540800000000000000
+      internalID: 5010108437049284594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 219
+        width: 26
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5931c7d491d96760800000000000000
+      internalID: 7451717495666325854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenAtk0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 178
+        width: 26
+        height: 22
+      alignment: 9
+      pivot: {x: 0.6985613, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a733a99d1f7aeff0800000000000000
+      internalID: -6052684379244635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenAtk1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 178
+        width: 19
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c929c56bfd5be780800000000000000
+      internalID: -8652718924736419385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenAtk2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 178
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0.3499756, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2857a61b8d5e740800000000000000
+      internalID: 5180785202866520826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenAtk3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 177
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.34398705, y: 0.029416684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d411bc0e0b6e250800000000000000
+      internalID: 5973656435279613249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenAtk4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 178
+        width: 46
+        height: 26
+      alignment: 9
+      pivot: {x: 0.33251753, y: 0.0061093844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d2da0b0a9a1df00800000000000000
+      internalID: 1139878688325446950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenAtk5
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 178
+        width: 72
+        height: 23
+      alignment: 9
+      pivot: {x: 0.34004763, y: -0.0034531304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5880a53f6041f0bd0800000000000000
+      internalID: -2661886834667550587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenAtk6
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 179
+        width: 37
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5515186, y: 0.0069062607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f701fb18e673450800000000000000
+      internalID: 6068440526440398735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenAtk7
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 179
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.6191366, y: 0.0034531304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b1fbf8008149df0800000000000000
+      internalID: -174488094869873872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brownwalk0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 106
+        width: 33
+        height: 22
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e2f15ea97d43f40800000000000000
+      internalID: 5707423688054222415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brownwalk1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 106
+        width: 32
+        height: 21
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35796415e91f67d20800000000000000
+      internalID: 3276071441229322067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brownwalk2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 107
+        width: 32
+        height: 20
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2753add29e50c0950800000000000000
+      internalID: 6416510068150908274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brownwalk3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 107
+        width: 33
+        height: 22
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c62b92a865ddf70800000000000000
+      internalID: 9213615564074937355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brownwalk4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 107
+        width: 33
+        height: 20
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17a2092d7baf2170800000000000000
+      internalID: 8155926004238559004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brownwalk5
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 107
+        width: 32
+        height: 19
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd78aa6ab5fb2e40800000000000000
+      internalID: 5632865939959086518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_26
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 107
+        width: 25
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b9e7297e46e42d0800000000000000
+      internalID: -3292583331803260040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_27
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 107
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6072e373fe2d3ec90800000000000000
+      internalID: -7141632659213637882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 108
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d25b53dbb77ce260800000000000000
+      internalID: 7128203958809219793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_29
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 35
+        width: 26
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a7ccdfa7dc3eb60800000000000000
+      internalID: 7774283309899348551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_30
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 35
+        width: 23
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9082b303d38981ec0800000000000000
+      internalID: -3595956913885730807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_31
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 35
+        width: 23
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0808ae2a7359c70800000000000000
+      internalID: 8977142605091471607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_32
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 35
+        width: 25
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1208903a3e6c55cb0800000000000000
+      internalID: -4875772340563509215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_33
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 35
+        width: 23
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c77e95354823120800000000000000
+      internalID: 2392119845612649567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 35
+        width: 24
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac107aac5160e030800000000000000
+      internalID: 3521921959228087469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_35
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 36
+        width: 18
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca7efdaeee3b8870800000000000000
+      internalID: 8686105501156408009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_36
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 35
+        width: 24
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0283741f8455778a0800000000000000
+      internalID: -6307478981335107552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_37
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 35
+        width: 24
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355715730c18c9460800000000000000
+      internalID: 7249812162721445203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_38
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 35
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c976b44f6b34140800000000000000
+      internalID: 4702803596258286727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_39
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 35
+        width: 24
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c907dc688d8e060800000000000000
+      internalID: 6983069295721880701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_King_PridelandsEnemies_40
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 35
+        width: 24
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d8a6fd351c8fc10800000000000000
+      internalID: 2087630993260973384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
