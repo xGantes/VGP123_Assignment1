@@ -1,8 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class PlayerAttacks : MonoBehaviour
+public class PlayerStatus : MonoBehaviour
 {
 
 }

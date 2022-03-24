@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,13 +7,17 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
-    [SerializeField] private float Speed;
-    [SerializeField] private float JumpForce;
-    [SerializeField] private float GroundCheckRadius;
+    [SerializeField][HideInInspector] private float Speed;
+    [SerializeField][HideInInspector] private float JumpForce;
+    [SerializeField][HideInInspector] private float GroundCheckRadius;
     [SerializeField] private Transform GroundCheck;
     [SerializeField] private LayerMask WhatsGround;
 
     private Rigidbody2D rb;
+    private Light inspector;
+
+    public PhysicsMaterial2D withFriction;
+    public PhysicsMaterial2D noFriction;
     //private SpriteRenderer sr;
 
     Animator animator;
@@ -20,6 +25,7 @@ public class PlayerControls : MonoBehaviour
     const string Player_Idle = "Player_Idle";
     const string Player_Run = "Player_Run";
     const string Player_Jump = "Player_Jump";
+    const string Player_StandLand = "Player_StandLand";
     const string Player_RunJump = "Player_RunJump";
     const string Player_LedgeGrab = "Player_LedgeGrab";
     const string Player_Roar = "Player_Roar";
@@ -28,77 +34,8 @@ public class PlayerControls : MonoBehaviour
     public bool isGrounded;
     public bool verbose = false;
     private bool isFacingRight = true;
-    public static bool isJumping, isRunning, isGrabbing, isRoaring;
+    public static bool isJumping, isRunning, isGrabbing, isLanding, isRoaring;
 
-    private bool gBox, rBox;
-    public float rOffSetX, rOffSetY, rOffSetSizeX, rOffSetSizeY, gOffSetX, gOffSetY, gOffSetSizeY, gOffSetSizeX;
-    private float gravity;
-
-    private float AttackTimer = 0f;
-    private float AttackDuration = 0.10f;
-    private GameObject Attacking = default;
-    //jumps
-    //private float JumpCounter;
-    //public float JumpTime;
-
-    #region
-    int _lives = 0;
-    int _stamina = 0;
-    int _hp = 5;
-
-    public int maxLives = 3;
-    public int maxStamina = 10;
-    public int maxHp = 10;
-
-    public int lives
-    {
-        get
-        {
-            return _lives;
-        }
-        set
-        {
-            _lives = value;
-            if(_lives > maxLives)
-            {
-                _lives = maxLives;
-            }
-            Debug.Log("Lives set to: " + lives.ToString());
-        }
-    }
-    public int stamina
-    {
-        get
-        {
-            return _stamina;
-        }
-        set
-        {
-            _stamina = value;
-            if(_stamina > maxStamina)
-            {
-                _stamina = maxStamina;
-            }
-            Debug.Log("Stamina set to: " + stamina.ToString());
-        }
-    }
-    public int health
-    {
-        get
-        {
-            return _hp;
-        }
-        set
-        {
-            _hp = value;
-            if(_hp > maxHp)
-            {
-                _hp = maxHp;
-            }
-            Debug.Log("Health is set to: " + health.ToString());
-        }
-    }
-    #endregion
 
     void Start()
     {
@@ -109,14 +46,12 @@ public class PlayerControls : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         animator.Play("Player_Idle");
 
-        gravity = rb.gravityScale;
-
-        Attacking = transform.GetChild(0).gameObject;
+        //roarArea = transform.GetChild(1).gameObject;
 
         //character's behavior
         if(Speed <= 0)
         {
-            Speed = 12.0f;
+            Speed = 9.0f;
         }
         if(JumpForce <= 0)
         {
@@ -124,7 +59,7 @@ public class PlayerControls : MonoBehaviour
         }
         if (GroundCheckRadius <= 0)
         {
-            GroundCheckRadius = 0.04f;
+            GroundCheckRadius = 0.10f;
         }
         if(!GroundCheck)
         {
@@ -140,6 +75,15 @@ public class PlayerControls : MonoBehaviour
                     Debug.Log("Ground is not found");
                 }
             }
+        }
+
+        try
+        {
+            inspector.color = Color.red;
+        }
+        catch (NullReferenceException)
+        {
+            Debug.Log("Player Control's Light was not set in the inspector");
         }
     }
     void ChangeAnimatorState(string newState)
@@ -159,28 +103,13 @@ public class PlayerControls : MonoBehaviour
         HoriMovement();
         JumpMovement();
         PlayerAnimation();
-        LedgeGrab();
         Roaring();
 
         animator.SetBool("isGrounded", isGrounded);
         animator.SetBool("isRunning", isRunning);
         animator.SetBool("isJumping", isJumping);
         animator.SetBool("isGrabbing", isGrabbing);
-        
-        /*
-        AnimatorClipInfo[] currentClip = animator.GetCurrentAnimatorClipInfo(0);
-        if (currentClip[0].clip.name != "isFiring")
-        {
-            Vector2 directMove = new Vector2(HoriMovement * Speed,
-            rb.velocity.y);
-            rb.velocity = directMove;
-        }
-        else
-        {
-            rb.velocity = Vector2.zero;
-        } */
 
-        
     }
     void HoriMovement()
     {
@@ -196,17 +125,14 @@ public class PlayerControls : MonoBehaviour
             //new
             if (HoriMovement != 0)
             {
+                rb.sharedMaterial = noFriction;
                 isRunning = true;
             }
             else
             {
+                rb.sharedMaterial = withFriction;
                 isRunning = false;
             }
-            /*
-            if (HoriMovement > 0 && sr.flipX || HoriMovement < 0 && !sr.flipX)
-            {
-                sr.flipX = !sr.flipX;
-            } */
             if(HoriMovement > 0 && !isFacingRight || HoriMovement < 0 && isFacingRight)
             {
                 Vector3 currentScale = gameObject.transform.localScale;
@@ -229,75 +155,27 @@ public class PlayerControls : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.W) && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, JumpForce);
+            rb.AddForce(Vector2.up * JumpForce);
         }
     }
-    void LedgeGrab()
-    {
-        gBox = Physics2D.OverlapBox
-        (
-            new Vector2(transform.position.x + (gOffSetX * transform.localScale.x),
-            transform.position.y + gOffSetY),
-            new Vector2(gOffSetSizeX, gOffSetSizeY), 0f, WhatsGround
-        );
-        rBox = Physics2D.OverlapBox
-        (
-            new Vector2(transform.position.x + (rOffSetX * transform.localScale.x),
-            transform.position.y + rOffSetY),
-            new Vector2(rOffSetSizeX, rOffSetSizeY), 0f, WhatsGround
-        );
 
-        if (gBox && !rBox && !isGrabbing && isJumping)
-        {
-            isGrabbing = true;
-        }
-        if(isGrabbing)
-        {
-            rb.velocity = new Vector2(0f, 0f);
-            rb.gravityScale = 0f;
-        }
-
-    }
-    void ChangePos()
-    {
-        transform.position = new Vector2
-        (
-            transform.position.x + (0.5f * transform.localScale.x), 
-            transform.position.y + 0.4f
-        );
-        rb.gravityScale = gravity;
-        isGrabbing = false;
-    }
-    public void Roaring()
+    void Roaring()
     {
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.LeftAlt))
         {
-            if(!isJumping)
+            if (!isRoaring && !isJumping)
             {
-                if(!isRoaring)
-                {
-                    isRoaring = true;
-                    animator.SetTrigger("isRoaring");
-                }
+                isRoaring = true;
+                SoundManager.soundInstances.audio.PlayOneShot(SoundManager.soundInstances.roar);
             }
-            if (isRoaring)
-            {
-                AttackTimer += Time.deltaTime;
-                if(AttackTimer >= AttackDuration)
-                {
-                    AttackTimer = 0;
-                    isRoaring = false;
-                    Attacking.SetActive(Attacking);
-                }
-            }
-           
         }
-        
     }
+
     void PlayerAnimation()
     {
         if (animator.GetCurrentAnimatorStateInfo(0).IsName(Player_LedgeGrab) && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
         {
-            ChangePos();
+            GetComponent<LedgeGrabbing>().ChangePos();
         }
         if (isRunning && !isJumping && !isRoaring)
         {
@@ -330,19 +208,5 @@ public class PlayerControls : MonoBehaviour
                 isRoaring = false;
             }
         }
-
-
-    }
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireCube(new Vector2(transform.position.x + (gOffSetX * transform.localScale.x),
-            transform.position.y + gOffSetY),
-            new Vector2(gOffSetSizeX, gOffSetSizeY));
-
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(new Vector2(transform.position.x + (rOffSetX * transform.localScale.x),
-            transform.position.y + rOffSetY),
-            new Vector2(rOffSetSizeX, rOffSetSizeY));
     }
 }

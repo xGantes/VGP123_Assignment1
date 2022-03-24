@@ -280,19 +280,19 @@ TextureImporter:
     second: jump8
   - first:
       213: 8640691146598477149
-    second: Cub_92
+    second: standLand0
   - first:
       213: 1949631386813570247
-    second: Cub_93
+    second: standLand1
   - first:
       213: 3482795583818520415
-    second: Cub_94
+    second: standLand2
   - first:
       213: 7133122698515874352
-    second: Cub_95
+    second: standLand3
   - first:
       213: -3235589306155781891
-    second: Cub_96
+    second: standLand4
   - first:
       213: 8504369353154086552
     second: run0
@@ -1162,7 +1162,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 23
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -2969,8 +2969,8 @@ TextureImporter:
         y: 2017
         width: 48
         height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2990,8 +2990,8 @@ TextureImporter:
         y: 2017
         width: 34
         height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3011,8 +3011,8 @@ TextureImporter:
         y: 2017
         width: 37
         height: 63
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3032,8 +3032,8 @@ TextureImporter:
         y: 2017
         width: 36
         height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3053,8 +3053,8 @@ TextureImporter:
         y: 2017
         width: 42
         height: 40
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3074,8 +3074,8 @@ TextureImporter:
         y: 2017
         width: 50
         height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3095,8 +3095,8 @@ TextureImporter:
         y: 2017
         width: 47
         height: 57
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3116,8 +3116,8 @@ TextureImporter:
         y: 2017
         width: 43
         height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3137,8 +3137,8 @@ TextureImporter:
         y: 2017
         width: 40
         height: 68
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3151,7 +3151,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cub_92
+      name: standLand0
       rect:
         serializedVersion: 2
         x: 4
@@ -3172,7 +3172,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cub_93
+      name: standLand1
       rect:
         serializedVersion: 2
         x: 40
@@ -3193,7 +3193,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cub_94
+      name: standLand2
       rect:
         serializedVersion: 2
         x: 82
@@ -3214,7 +3214,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cub_95
+      name: standLand3
       rect:
         serializedVersion: 2
         x: 128
@@ -3235,7 +3235,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cub_96
+      name: standLand4
       rect:
         serializedVersion: 2
         x: 172
@@ -3263,8 +3263,8 @@ TextureImporter:
         y: 1900
         width: 52
         height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3284,8 +3284,8 @@ TextureImporter:
         y: 1900
         width: 52
         height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3305,8 +3305,8 @@ TextureImporter:
         y: 1900
         width: 54
         height: 31
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3326,8 +3326,8 @@ TextureImporter:
         y: 1900
         width: 60
         height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3347,8 +3347,8 @@ TextureImporter:
         y: 1900
         width: 64
         height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3368,8 +3368,8 @@ TextureImporter:
         y: 1900
         width: 60
         height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3389,8 +3389,8 @@ TextureImporter:
         y: 1900
         width: 56
         height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3410,8 +3410,8 @@ TextureImporter:
         y: 1900
         width: 56
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3431,8 +3431,8 @@ TextureImporter:
         y: 1900
         width: 57
         height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3452,8 +3452,8 @@ TextureImporter:
         y: 1900
         width: 51
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3473,8 +3473,8 @@ TextureImporter:
         y: 1900
         width: 48
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3494,8 +3494,8 @@ TextureImporter:
         y: 1900
         width: 49
         height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3515,8 +3515,8 @@ TextureImporter:
         y: 1900
         width: 50
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

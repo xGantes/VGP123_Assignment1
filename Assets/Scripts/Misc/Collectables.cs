@@ -28,21 +28,24 @@ public class Collectables : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            PlayerControls playerCon = collision.gameObject.GetComponent<PlayerControls>();
+            SoundManager.soundInstances.audio.PlayOneShot(SoundManager.soundInstances.cool);
+            //GameManager playerStats = collision.gameObject.GetComponent<GameManager>();
             switch (collects)
             {
                 case CollectibleType.Hp:
-                    playerCon.health++;
+                    //playerStats.health++;
+                    GameManager.instances.health++;
                     break;
                 case CollectibleType.Life:
-                    playerCon.lives++;
+                    //playerStats.lives++;
+                    GameManager.instances.lives++;
                     break;
                 case CollectibleType.Stamina:
-                    playerCon.stamina++;
+                    //playerStats.stamina++;
+                    GameManager.instances.stamina++;
                     break;
             }
             Destroy(gameObject);
         }
     }
-
 }

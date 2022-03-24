@@ -5,65 +5,25 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public GameObject followObject;
-    //public Vector2 followOffSet;
-    private Vector2 thold;
-    public float speed = 5f;
-    private Rigidbody2D rb;
 
-    //clamping
-    public Vector3 minValue, maxValue;
-    // Start is called before the first frame update
-    void Start()
+    public float minXClamp = -3.3f;
+    public float maxXClamp = 44.4f;
+    public float minYClamp = -6.2f;
+    public float maxYClamp = 39.2f;
+
+    private void LateUpdate()
     {
-       // thold = calcthold();
-        rb = followObject.GetComponent<Rigidbody2D>();
-    }
-
-    void FixedUpdate()
-    {
-        Vector2 follow = followObject.transform.position;
-        float xdiff = Vector2.Distance(Vector2.right * transform.position.x, Vector2.right * follow.x);
-        float ydiff = Vector2.Distance(Vector2.up * transform.position.x, Vector2.up * follow.x);
-
-        Vector3 newPos = transform.position;
-
-        if (Mathf.Abs(xdiff) >= thold.x)
+        if (GameManager.instances.playerInstances)
         {
-            newPos.x = follow.x;
-        }
-        if (Mathf.Abs(ydiff) >= thold.y)
-        {
-            newPos.y = follow.y;
-        }
-        float ms = rb.velocity.magnitude > speed ? rb.velocity.magnitude : speed;
+            Vector3 xCamTransform = transform.position;
+            xCamTransform.x = GameManager.instances.playerInstances.transform.position.x;
+            xCamTransform.x = Mathf.Clamp(xCamTransform.x, minXClamp, maxXClamp);
+            transform.position = xCamTransform;
 
-        //bound position or limiting
-        Vector3 boundPosition = new Vector3(
-            Mathf.Clamp(newPos.x, minValue.x, maxValue.x),
-            Mathf.Clamp(newPos.y, minValue.y, maxValue.y),
-            Mathf.Clamp(newPos.z, minValue.z, maxValue.z));
-
-        //transform.position = Vector3.MoveTowards(transform.position, newPos, speed * Time.deltaTime);
-        transform.position = Vector3.MoveTowards(transform.position, boundPosition, speed * Time.deltaTime);
+            Vector3 yCamTransform = transform.position;
+            yCamTransform.y = GameManager.instances.playerInstances.transform.position.y;
+            yCamTransform.y = Mathf.Clamp(yCamTransform.y, minYClamp, maxYClamp);
+            transform.position = yCamTransform;
+        }
     }
-    // Update is called once per frame
-    /* void Update()
-     {
-     } */
-    /*
-    private Vector3 calcthold()
-    {
-        Rect aspect = Camera.main.pixelRect;
-        Vector2 t = new Vector2(Camera.main.orthographicSize * aspect.width / aspect.height, Camera.main.orthographicSize);
-        t.x -= followOffSet.x;
-        t.y -= followOffSet.y;
-        return t;
-    }
-    
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.blue;
-        Vector2 border = calcthold();
-        Gizmos.DrawWireCube(transform.position, new Vector3(border.x * 2, border.y * 2, 1));
-    } */
 }
